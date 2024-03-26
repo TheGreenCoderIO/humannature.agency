@@ -11,7 +11,7 @@
 </script>
 
 <template>
-      <v-app-bar color="black" fixed scroll-off-screen class="mt-4 mb-4">
+      <v-app-bar color="black" class="mb-4 pt-4">
       <v-toolbar-title class="ml-15">
           <img :src="logo" class="logo"/>
       </v-toolbar-title>
