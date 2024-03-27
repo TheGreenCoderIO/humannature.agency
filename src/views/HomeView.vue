@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar.vue'
 import Footer from '../components/Footer.vue'
 import HomeLanding from '../components/HomeLanding.vue'
 import Services from '../components/Services.vue'
+import ChangeMakers from '../components/ChangeMakers.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Services from '../components/Services.vue'
   <v-main app class="main">
     <HomeLanding />
     <Services />
+    <ChangeMakers />
     <Footer />
   </v-main>
 </template>
