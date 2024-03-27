@@ -11,6 +11,20 @@
       </v-col>
     </v-row>
   </v-container>
+  <v-container fluid class="para">
+    <v-row no-gutters>
+      <v-col cols="12" sm="12" md="6" class="mx-auto mt-10 mb-10">
+        <p class="para">Whether you’re part of an <strong>enterprise</strong> looking to
+        develop a <strong>more sustainable UX </strong> or a 
+        <strong>start-up</strong> with a dream to make education more
+        accessible, we work with you to define and deliver the core of your
+        brand, project or goal.</p> 
+
+        <p class="para">Through <strong>storytelling</strong> and <strong>brand development</strong>, we help you echo that
+        core for employees, stakeholders and customers to buy into.</p>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <style scoped>
@@ -28,6 +42,7 @@ h2 {
   background-image: url('@/assets/background-one.png');
   background-size: contain;
 }
+
 @media (max-width: 1024px) {
   h1 {
     font-size: 3em;

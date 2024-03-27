@@ -2,14 +2,16 @@
 import NavBar from '../components/NavBar.vue'
 import Footer from '../components/Footer.vue'
 import HomeLanding from '../components/HomeLanding.vue'
+import Services from '../components/Services.vue'
 </script>
 
 <template>
   <NavBar />
   <v-main app class="main">
     <HomeLanding />
+    <Services />
+    <Footer />
   </v-main>
-  <Footer />
 </template>
 
 <style scoped>

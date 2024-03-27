@@ -7,10 +7,9 @@
 </script>
 
 <template>
-    <v-footer 
-      color="black" 
+    <v-container
       app 
-      class="align-center justify-center"
+      class="align-center justify-center container"
       width="100%" >
       <v-row justify="center" class="text-center">
         <v-col class="mx-0 px-0" cols="12">
@@ -35,7 +34,7 @@
           Copyright Human.Nature 2024
         </v-col>
       </v-row>
-    </v-footer>
+    </v-container>
 </template>
 
 <style scoped>
@@ -44,5 +43,8 @@
 }
 .copyright {
   font-size: 0.5em
+}
+.container {
+  background-color: #000;
 }
 </style>
