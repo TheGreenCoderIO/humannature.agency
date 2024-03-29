@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import homeImage from "@/assets/home-image-one.png";
 
-  const openMail = (mailto) => {
+  const openMail = () => {
     window.location.href = 'mailto:info@humannature.agency';
   };
 </script>
@@ -24,7 +24,7 @@
          <p>Data and statistics only go so far. To <strong>capture hearts, inspire
            action and change behaviour</strong>, we harness the <strong>power
            of storytelling</strong> and
-         <strong>brand building</strong>.</p> 
+         <strong>brand building</strong>.</p>
         <br/>
          <p>It's the difference between facts on a page and
          creating a connected brand experience that resonates with
