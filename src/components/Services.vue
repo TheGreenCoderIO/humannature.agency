@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import homeImage from "@/assets/home-image-one.png";
+  import homeImage from "@/assets/home-image-one.png";
 
   const openMail = (mailto) => {
     window.location.href = 'mailto:info@humannature.agency';

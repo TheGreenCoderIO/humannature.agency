@@ -4,6 +4,7 @@ import Footer from '../components/Footer.vue'
 import HomeLanding from '../components/HomeLanding.vue'
 import Services from '../components/Services.vue'
 import ChangeMakers from '../components/ChangeMakers.vue'
+import Goals from '../components/Goals.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import ChangeMakers from '../components/ChangeMakers.vue'
     <HomeLanding />
     <Services />
     <ChangeMakers />
+    <Goals />
     <Footer />
   </v-main>
 </template>
