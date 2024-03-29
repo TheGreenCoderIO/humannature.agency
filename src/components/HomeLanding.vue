@@ -15,7 +15,7 @@
     <v-row no-gutters>
       <v-col cols="12" sm="12" md="6" class="mx-auto mt-10 mb-10">
         <p class="para">Whether you’re part of an <strong>enterprise</strong> looking to
-        develop a <strong>more sustainable UX </strong> or a 
+        develop a <strong>more sustainable UX </strong> or a
         <strong>start-up</strong> with a dream to make education more
         accessible, we work with you to define and deliver the core of your
         brand, project or goal.</p> 
@@ -30,9 +30,12 @@
 <style scoped>
 h1 {
   font-size: 5em;
+  line-height: 1em;
+  padding-bottom:20px;
 }
 h2 {
   font-size: 1.5em;
+  font-weight: bold;
 }
 .landing {
   width: 100%;

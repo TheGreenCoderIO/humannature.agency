@@ -3,9 +3,9 @@
   const sidebar = false
   const menuItems = [
         { title: 'Home', path: '/' },
-        { title: 'About', path: '/' },
+        { title: 'About', path: '/about' },
    ]
-  const openMail = (mailto) => {
+  const openMail = () => {
     window.location.href = 'mailto:info@humannature.agency';
   };
 </script>
@@ -18,6 +18,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only mr-15" align="center" justify="center">
         <v-btn
+          @click="$router.push(item.path)"
           flat
           v-for="item in menuItems"
           :key="item.title">
