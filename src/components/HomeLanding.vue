@@ -2,9 +2,9 @@
 </script>
 
 <template>
-  <v-container fluid class="landing mt-10 mb-10 justify-center align-center" >
+  <v-container fluid class="landing mt-10 mb-10 justify-center text-center align-center" >
     <v-row no-gutters>
-       <v-col cols="12" sm="12" md="6" class="mx-auto mt-10 mb-10">
+       <v-col cols="12" sm="12" md="12" class="pl-15 pr-15 pt-15 pb-15 mt-15 mb-15">
         <h1 class="wide">Building <span class="green">better brands</span> for
           a <span class="green">better planet.</span></h1>
         <h2>Storytelling & brand building for purpose-driven brands impacting sustainability, equality, and education.</h2>
@@ -13,7 +13,7 @@
   </v-container>
   <v-container fluid class="para">
     <v-row no-gutters>
-      <v-col cols="12" sm="12" md="6" class="mx-auto mt-10 mb-10">
+      <v-col cols="12" sm="12" md="12" class="mx-auto pl-15 pr-15 mt-10 mb-10">
         <p class="para">Whether you’re part of an <strong>enterprise</strong> looking to
         develop a <strong>more sustainable UX </strong> or a 
         <strong>start-up</strong> with a dream to make education more
@@ -40,7 +40,6 @@ h2 {
   margin: 0;
   color: white;
   background-image: url('@/assets/background-one.png');
-  background-size: contain;
 }
 
 @media (max-width: 1024px) {
@@ -48,7 +47,7 @@ h2 {
     font-size: 3em;
   }
   h2 {
-    font-size: 0.5em;
+    font-size: 1em;
   }
 }
 </style>

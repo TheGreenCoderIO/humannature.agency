@@ -7,20 +7,20 @@
 </script>
 
 <template>
-  <v-container fluid class="services mt-10 mx-auto mb-10 justify-center align-center" >
-    <v-row no-gutters>
-       <v-col cols="12" sm="12" md="6" class="mx-auto mt-10 mb-10">
+  <v-container fluid class="services mt-10  mx-auto mb-10 justify-center align-center" >
+    <v-row class="pl-15 pr-15">
+       <v-col cols="12" sm="12" md="12" class="mx-auto mt-10 mb-10">
         <h1>Services</h1>
       </v-col>
     </v-row>
-    <v-row no-gutters class="para">
-      <v-col cols="2" class="ml-auto mb-15" fluid>
+    <v-row class="para pl-15 pr-15">
+      <v-col cols="12" xs="12" sm="12" md="4" class="ml-auto mb-15">
           <v-img :src="homeImage" />
       </v-col>
-       <v-col cols="2" class="mt-15 mr-3 ml-3">
+       <v-col cols="12" xs="12" sm="12" md="4" class="mt-10">
           <v-img :src="homeImage"/>
       </v-col>
-       <v-col cols="2" class="mr-auto services-text mb-0">
+       <v-col cols="12" xs="12" sm="12" md="4" class="mr-auto services-text mb-0">
          <p>Data and statistics only go so far. To <strong>capture hearts, inspire
            action and change behaviour</strong>, we harness the <strong>power
            of storytelling</strong> and
@@ -34,8 +34,8 @@
         </v-btn>
       </v-col>
     </v-row>
-    <v-row no-gutters class="para mt-10">
-      <v-col cols="2" class="ml-auto services-blocks pt-5 pb-10 pr-5 pl-5" fluid>
+    <v-row class="para pl-15 pr-15">
+      <v-col cols="12" xs="12" sm="12" md="4"class="mt-10 services-blocks">
         <h2>Stroytelling for impact</h2>
         <br/>
         <ul>
@@ -54,7 +54,7 @@
           <li>Employee branding</li>
         </ul>
       </v-col>
-      <v-col cols="2" class="mr-3 ml-3 services-blocks pt-5 pb-10 pr-5 pl-5" fluid>
+      <v-col cols="12" xs="12" sm="12" md="4" class="mt-10 services-blocks">
         <h2>Brand development</h2>
         <br/>
         <ul>
@@ -67,7 +67,7 @@
           <li>SEO</li>
         </ul>
       </v-col>
-      <v-col cols="2" class="mr-auto services-blocks pt-5 pb-10 pr-5 pl-5" fluid>
+      <v-col cols="12" xs="12" sm="12" md="4" class="mt-10 services-blocks">
         <h2>Content & campaigns</h2>
         <br/>
         <ul>
@@ -103,11 +103,5 @@ ul > li {
     margin-left: 20px;
 }
 @media (max-width: 1024px) {
-  h1 {
-    font-size: 3em;
-  }
-  .services-text {
-    font-size: 0.5em;
-  }
 }
 </style>

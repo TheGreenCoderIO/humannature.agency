@@ -8,8 +8,8 @@
 
 <template>
   <v-container fluid class="mt-10 mb-10 mx-auto justify-center align-center" >
-    <v-row no-gutters>
-       <v-col cols="4" sm="4" md="4" class="ml-auto mr-0">
+    <v-row no-gutters class="pl-15 pr-15">
+       <v-col cols="12" sm="12" md="6" class="pl-15 pr-15 mt-10 mb-10">
          <h2 class="wide">Let's <span class="green">change the world,</span></h2>
           <h2>because we can.</h2>
         <br/>
@@ -17,8 +17,8 @@
           Get In Touch
         </v-btn>
       </v-col>
-       <v-col cols="2" sm="2" md="2" class="mr-auto ml-0">
-          <v-img :src="sdg" fluid />
+       <v-col cols="12" sm="12" md="6" class="align-center pl-15 pr-15 mt-10 mb-10">
+          <v-img :src="sdg" :width="300" class="mx-auto"/>
       </v-col>
     </v-row>
   </v-container>
@@ -36,7 +36,7 @@ h2 {
 }
 @media (max-width: 1024px) {
   h2 {
-    font-size: 0.5em;
+    font-size: 2em;
   }
 }
 .email-btn {
