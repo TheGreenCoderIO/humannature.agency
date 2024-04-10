@@ -2,13 +2,13 @@
 </script>
 
 <template>
-  <v-container fluid class="landing mt-10 mb-10 justify-center align-center" >
+  <v-container fluid class="landing mt-10 mb-10 text-center justify-center align-center" >
     <v-row no-gutters>
-       <v-col cols="12" sm="12" md="6" class="mx-auto mt-10 mb-10">
+       <v-col cols="12" sm="12" md="12" class="mx-auto mt-10 mb-10">
         <h1 class="wide">
             We work with the
-            <span class="green">change-makers.</span>
         </h1>
+        <h1>&nbsp<span class="green">change-makers.</span></h1>
       </v-col>
     </v-row>
   </v-container>

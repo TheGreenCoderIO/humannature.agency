@@ -4,12 +4,13 @@ import Footer from '../components/Footer.vue'
 import AboutLanding from '../components/AboutLanding.vue'
 import AboutBody from '../components/AboutBody.vue'
 import Goals from '../components/Goals.vue'
+import ChangeMakers from '../components/ChangeMakers.vue'
 </script>
 
 <template>
   <NavBar />
   <v-main app class="main">
-    <AboutLanding />
+    <ChangeMakers />
     <AboutBody />
     <Goals />
     <Footer />
