@@ -3,17 +3,18 @@
 
 <template>
   <v-container fluid class="landing mt-10 mb-10 justify-center text-center align-center" >
-    <v-row no-gutters>
+    <v-row class="pt-15 pb-15">
        <v-col cols="12" sm="12" md="12" class="pl-15 pr-15 pt-15 pb-15 mt-15 mb-15">
-        <h1 class="wide">Building <span class="green">better brands</span> for
+        <h1 class="dark">Building <span class="green medium">better brands</span> for
           a <span class="green">better planet.</span></h1>
-        <h2>Storytelling & brand building for purpose-driven brands impacting sustainability, equality, and education.</h2>
+        <h2>Storytelling & brand building for purpose-driven brands impacting
+          sustainability, equality, and education.</h2>
       </v-col>
     </v-row>
   </v-container>
   <v-container fluid class="para">
     <v-row no-gutters>
-      <v-col cols="12" sm="12" md="12" class="mx-auto pl-15 pr-15 mt-10 mb-10">
+      <v-col cols="12" sm="12" md="12" class="mx-auto pl-15 pr-15 mt-10">
         <p class="para">Whether you’re part of an <strong>enterprise</strong> looking to
         develop a <strong>more sustainable UX </strong> or a
         <strong>start-up</strong> with a dream to make education more
@@ -29,20 +30,22 @@
 
 <style scoped>
 h1 {
-  font-size: 5em;
-  line-height: 1em;
+  font-size: 6em;
   padding-bottom:20px;
 }
+
 h2 {
-  font-size: 1.5em;
+  font-size: 2.2em;
   font-weight: bold;
 }
+
 .landing {
   width: 100%;
   padding: 0;
   margin: 0;
   color: white;
   background-image: url('@/assets/background-one.png');
+  background-size: cover;
 }
 
 @media (max-width: 1024px) {

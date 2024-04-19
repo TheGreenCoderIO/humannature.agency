@@ -16,7 +16,7 @@
           <img :src="logo" class="logo"/>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-xs-only mr-15" align="center" justify="center">
+      <v-toolbar-items class="hidden-xs-only mr-15 nav-text" align="center" justify="center">
         <v-btn
           @click="$router.push(item.path)"
           flat
@@ -39,6 +39,10 @@
 .nav-btn {
   background-color: #09C771;
   color: #000;
+}
+
+.nav-text {
+  font-family: 'Urbanist', san-serif !important;
 }
 
 .logo {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
@@ -72,6 +72,7 @@ body {
   line-height: 1.6;
   font-family:
     'Palanquin',
+    'Urbanist',
     san-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;

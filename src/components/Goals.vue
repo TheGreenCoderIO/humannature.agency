@@ -8,16 +8,16 @@
 
 <template>
   <v-container fluid class="mt-10 mb-10 mx-auto justify-center align-center" >
-    <v-row no-gutters class="pl-15 pr-15">
+    <v-row no-gutters class="pl-5 pr-5">
        <v-col cols="12" sm="12" md="6" class="pl-15 pr-15 mt-10 mb-10">
-         <h2 class="wide">Let's <span class="green">change the world,</span></h2>
-          <h2>because we can.</h2>
+         <h2 class="dark">Let's <span class="green medium">change the world,</span></h2>
+          <h2 class="dark">because we can.</h2>
         <br/>
         <v-btn class="email-btn rounded-0 green" @click="openMail">
           Get In Touch
         </v-btn>
       </v-col>
-       <v-col cols="12" sm="12" md="6" class="align-center pl-15 pr-15 mt-10 mb-10">
+       <v-col cols="12" sm="12" md="6" class="align-center pl-10 pr-10 mt-10 mb-10">
           <v-img :src="sdg" :width="300" class="mx-auto"/>
       </v-col>
     </v-row>

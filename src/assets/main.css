@@ -1,4 +1,5 @@
 @import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 #app {
   font-weight: normal;
@@ -24,6 +25,21 @@ a,
     'Urbanist',
     san-serif;
 }
+
+.dark {
+  font-family: 'Palanquin Dark' !important;
+}
+
+.dark-medium {
+  font-family: 'Palanquin Dark' !important;
+  font-weight: 500;
+}
+
+.medium {
+  font-family: 'Palanquin';
+  font-weight: 500;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -42,3 +58,4 @@ a,
     width: 100%;
   }
 }
+

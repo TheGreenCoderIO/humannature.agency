@@ -14,15 +14,17 @@ export default {
 </script>
 
 <template>
-  <v-container fluid class="landing mt-10 mb-10 justify-center text-center align-center" >
+  <v-container fluid class="landing mt-10 mb-10 ml-0 mr-0 text-center" >
     <v-row class="mt-10 mb-10">
        <v-col cols="12" sm="12" md="12" class="pl-15 pr-15 pt-15 mt-15">
-         <h1 class="wide">We work with the </h1>
+         <h1 class="wide dark">We work with the </h1>
       </v-col>
-       <v-col cols="12" sm="12" md="12" class="pl-15 pr-15 pb-15 mb-15">
-         <ul id="changeMaker" class="animation  animation-style green">
+       <v-col cols="12" sm="12" md="12" class="pb-15 mb-15 animation-style">
+         <ul id="changeMaker" class="animation text-left medium green">
            <li v-for="word in words" class="cm"><h1>{{ word }}.</h1></li>
          </ul>
+      </v-col>
+       <v-col cols="12" sm="12" md="6">
       </v-col>
     </v-row>
   </v-container>
@@ -35,24 +37,32 @@ h1 {
 h2 {
   font-size: 1.5em;
 }
+
 .landing {
   width: 100%;
-  padding: 0;
-  margin: 0;
   color: white;
   background-image: url('@/assets/background-one.png');
+  background-size: cover;
 }
+
 .animation {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+.animation-style {
+  position: relative;
+}
+
 .animation-style li {
   list-style: none;
+  width: 40%;
   opacity: 0;
   position: absolute;
   left: 50%;
+  text-align: right !important;
+  display: table;
   transform: translate(-50%, -50%);
 }
 
@@ -133,10 +143,20 @@ h2 {
 
 @media (max-width: 1024px) {
   h1 {
-    font-size: 3em;
+    font-size: 2.2em;
   }
   h2 {
     font-size: 1em;
   }
+.animation-style li {
+  list-style: none;
+  width: 60%;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  text-align: right !important;
+  display: table;
+  transform: translate(-50%, -50%);
+}
 }
 </style>
