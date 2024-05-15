@@ -13,7 +13,7 @@
 <template>
       <v-app-bar color="black" class="mb-4 pt-4">
       <v-toolbar-title class="ml-15">
-          <img :src="logo" class="logo"/>
+        <v-btn @click="$router.push('/')"><img :src="logo" class="logo"/></v-btn>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only mr-15 nav-text" align="center" justify="center">

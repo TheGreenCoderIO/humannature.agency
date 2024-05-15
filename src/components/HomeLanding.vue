@@ -2,13 +2,15 @@
 </script>
 
 <template>
-  <v-container fluid class="landing mt-10 mb-10 justify-center text-center align-center" >
+  <v-container fluid class="landing mt-10 mb-10 justify-center align-center" >
     <v-row class="pt-15 pb-15">
        <v-col cols="12" sm="12" md="12" class="pl-15 pr-15 pt-15 pb-15 mt-15 mb-15">
-        <h1 class="dark">Building <span class="green medium">better brands</span> for
-          a <span class="green">better planet.</span></h1>
-        <h2>Storytelling & brand building for purpose-driven brands impacting
-          sustainability, equality, and education.</h2>
+         <h1 class="dark header"><span class="not-bold">Building</span> <span
+             class="green medium bold">better
+               brands</span> 
+           <br/>
+           <span class="not-bold">for a</span> <span class="green medium bold">better planet.</span></h1>
+        <h2>Storytelling & brand building for purpose-driven brands.</h2>
       </v-col>
     </v-row>
   </v-container>
@@ -29,31 +31,15 @@
 </template>
 
 <style scoped>
-h1 {
-  font-size: 6em;
-  padding-bottom:20px;
-}
-
-h2 {
-  font-size: 2.2em;
-  font-weight: bold;
-}
 
 .landing {
   width: 100%;
   padding: 0;
   margin: 0;
   color: white;
-  background-image: url('@/assets/background-one.png');
+  line-height: 8em;
+  background-image: url('@/assets/home-header.webp');
   background-size: cover;
 }
 
-@media (max-width: 1024px) {
-  h1 {
-    font-size: 3em;
-  }
-  h2 {
-    font-size: 1em;
-  }
-}
 </style>

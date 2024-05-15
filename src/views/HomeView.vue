@@ -9,7 +9,7 @@ import Goals from '../components/Goals.vue'
 
 <template>
   <NavBar />
-  <v-main app class="main">
+  <v-main app class="main gutter">
     <HomeLanding />
     <Services />
     <ChangeMakers />

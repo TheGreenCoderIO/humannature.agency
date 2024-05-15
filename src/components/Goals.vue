@@ -7,11 +7,13 @@
 </script>
 
 <template>
-  <v-container fluid class="mt-10 mb-10 mx-auto justify-center align-center" >
+  <v-container fluid class="mt-10 mb-10 mx-auto justify-center" >
     <v-row no-gutters class="pl-5 pr-5">
-       <v-col cols="12" sm="12" md="6" class="pl-15 pr-15 mt-10 mb-10">
-         <h2 class="dark">Let's <span class="green medium">change the world,</span></h2>
-          <h2 class="dark">because we can.</h2>
+       <v-col cols="12" sm="12" md="6" class="pl-15 pr-15 mt-15 pt-15 mb-10
+         align-center">
+         <h1 class="dark">Let's <span class="green medium">change the
+             world,</span></h1>
+          <h1 class="dark">because we can.</h1>
         <br/>
         <v-btn class="email-btn rounded-0 green" @click="openMail">
           Get In Touch
@@ -25,9 +27,10 @@
 </template>
 
 <style scoped>
-h2 {
+h1 {
+  font-size: 4em;
+  line-height: 1em;
   color: #FFF;
-  font-size: 2.5em;
 }
 
 .email-btn {
@@ -35,7 +38,7 @@ h2 {
   color: #000;
 }
 @media (max-width: 1024px) {
-  h2 {
+  h1 {
     font-size: 2em;
   }
 }

@@ -14,14 +14,15 @@ export default {
 </script>
 
 <template>
-  <v-container fluid class="landing mt-10 mb-10 ml-0 mr-0 text-center" >
+  <v-container fluid class="landing mt-10 mb-10 ml-0 mr-0 text-left" >
     <v-row class="mt-10 mb-10">
-       <v-col cols="12" sm="12" md="12" class="pl-15 pr-15 pt-15 mt-15">
-         <h1 class="wide dark">We work with the </h1>
+       <v-col cols="12" sm="12" md="12" class="pl-10 pr-10 pt-15 mt-15">
+         <h1 class="wide dark header not-bold">We work with the </h1>
       </v-col>
        <v-col cols="12" sm="12" md="12" class="pb-15 mb-15 animation-style">
          <ul id="changeMaker" class="animation text-left medium green">
-           <li v-for="word in words" class="cm"><h1>{{ word }}.</h1></li>
+           <li v-for="word in words" class="cm"><h1 class="header"><b>{{ word
+                 }}.</b></h1></li>
          </ul>
       </v-col>
        <v-col cols="12" sm="12" md="6">
@@ -31,17 +32,11 @@ export default {
 </template>
 
 <style scoped>
-h1 {
-  font-size: 5em;
-}
-h2 {
-  font-size: 1.5em;
-}
 
 .landing {
   width: 100%;
   color: white;
-  background-image: url('@/assets/background-one.png');
+  background-image: url('@/assets/about-header.webp');
   background-size: cover;
 }
 
@@ -57,10 +52,10 @@ h2 {
 
 .animation-style li {
   list-style: none;
-  width: 40%;
+  width: 60%;
   opacity: 0;
   position: absolute;
-  left: 50%;
+  left: 30%;
   text-align: right !important;
   display: table;
   transform: translate(-50%, -50%);
@@ -142,12 +137,6 @@ h2 {
 }
 
 @media (max-width: 1024px) {
-  h1 {
-    font-size: 2.2em;
-  }
-  h2 {
-    font-size: 1em;
-  }
 .animation-style li {
   list-style: none;
   width: 60%;

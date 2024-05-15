@@ -1,5 +1,6 @@
 <script setup lang="ts">
-  import homeImage from "@/assets/home-image-one.png";
+  import serviceOne from "@/assets/service-one.webp";
+  import serviceTwo from "@/assets/service-two.webp";
 
   const openMail = () => {
     window.location.href = 'mailto:info@humannature.agency';
@@ -15,10 +16,10 @@
     </v-row>
     <v-row class="para pl-5 pr-5">
       <v-col cols="12" xs="12" sm="12" md="4" class="ml-auto mb-15">
-          <v-img :src="homeImage" />
+          <v-img :src="serviceOne" />
       </v-col>
        <v-col cols="12" xs="12" sm="12" md="4" class="mt-10">
-          <v-img :src="homeImage"/>
+          <v-img :src="serviceTwo"/>
       </v-col>
        <v-col cols="12" xs="12" sm="12" md="4" class="mr-auto services-text mb-0">
          <p>Data and statistics only go so far. To <b>capture hearts, inspire
@@ -91,12 +92,6 @@
 </template>
 
 <style scoped>
-.services {
-  color: #fff;
-}
-h1 {
-  font-size: 5em;
-}
 .nav-btn {
   background-color: #09C771;
   color: #000;
