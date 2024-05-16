@@ -14,11 +14,12 @@
 
 h1 {
   font-size: 6em;
-  padding-bottom:20p;
+  padding-bottom:20px;
 }
 
 h2 {
   font-size: 2.2em;
+  line-height: 1.2;
 }
 
 .not-bold {
@@ -29,12 +30,8 @@ h2 {
   font-weight: 900 !important;
 }
 
-a,
 .green {
-  text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
 }
 
 .para {

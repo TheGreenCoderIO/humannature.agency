@@ -72,15 +72,15 @@ import brands from "@/assets/brands-no-gutters.png";
     </v-row>
     <v-row class="para pl-5 pr-5">
       <v-col cols="12" sm="12" md="3">
-        <h2>Work with <span class="green"><b>courage</b></span></h2>
+        <h2>Work with <span class="green dark"><b>courage</b></span></h2>
         <p class="para">Act decisively. And with courage. Changing the world needs bravery and action.</p>
       </v-col>
       <v-col cols="12" sm="12" md="3" class="ml-auto">
-        <h2>Drive <span class="green"><b>impact</b></span></h2>
+        <h2>Drive <span class="green dark"><b>impact</b></span></h2>
         <p class="para">Make change through empathy, consideration, creativity, true data and strategy.</p>
       </v-col>
       <v-col cols="12" sm="12" md="3" class="ml-auto">
-        <h2><span class="green"><b>Craft</b></span> excellence</h2>
+        <h2><span class="green dark"><b>Craft</b></span> excellence</h2>
             <p class="para">
             Design and copywriting is how your audience meets your brand. Doing it with care elevates your brand  beyond aesthetics and towards impact. #PixelPerfect 
         </p>
@@ -89,12 +89,12 @@ import brands from "@/assets/brands-no-gutters.png";
     <v-row class="para pl-5 pr-5 pb-15">
       <v-col cols="12" sm="12" md="3">
         <h2>Approach challenges with <span
-            class="green"><b>curiosity</b></span></h2>
+            class="green dark"><b>curiosity</b></span></h2>
         <p class="para">
 Challenge norms, embrace risks, and view setbacks as learning opportunities. Experimentation fuels growth. #NotBusinessAsUsual</p>
       </v-col>
       <v-col cols="12" sm="12" md="3" class="ml-auto">
-        <h2><span class="green"><b>Integrity</b></span> is non-negotiable</h2>
+        <h2><span class="green dark"><b>Integrity</b></span> is non-negotiable</h2>
         <p class="para">Foster collective strength through collaboration, honesty, empathy, transparency and respect.</p>
       </v-col>
       <v-col cols="12" sm="12" md="3" class="ml-auto">
@@ -102,35 +102,29 @@ Challenge norms, embrace risks, and view setbacks as learning opportunities. Exp
       </v-col>
     </v-row>
   </v-container>
-  <v-container fluid>
-    <v-row class="para pl-5 pr-5 pt-15">
-      <v-col cols="12" sm="12" md="12">
-            <h2>We’ve worked with some of the world’s biggest (and smallest)
-              brands and agencies across the globe:</h2>
+  <v-container fluid class="text-center">
+    <v-row class="para pt-15 mb-10">
+      <v-col cols="12" sm="12" md="12" class="mx-auto">
+            <h2 class="mx-auto">We’ve worked with some of the world’s <span class="green dark">biggest (and smallest)
+                brands and agencies:</span></h2>
         </v-col>
     </v-row>
-    <v-row class="para pl-5 pr-5">
-      <v-col cols="12" sm="12" md="12" class="ml-auto mr-auto mb-10">
-          <v-img :src="brands" />
+    <v-row class="para pl-5 pr-5 ml-auto align-center">
+      <v-col cols="12" sm="12" md="12" class="mx-auto mb-10">
+          <v-img :src="brands" class="mx-auto brands"/>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <style scoped>
-.nav-btn {
-  background-color: #09C771;
-  color: #000;
-}
-
 .services-text {
   font-size: 1em;
 }
 .services-blocks {
   background-color: #111111;
 }
-ul > li {
-    margin-left: 20px;
+.brands {
+  max-width: 1319px;
 }
-
 </style>

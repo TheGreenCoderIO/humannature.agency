@@ -3,8 +3,7 @@ import { ref, watch, onMounted } from 'vue';
 
 export default {
   setup() {
-    const words = ref(['brave', 'kind', 'rebels', 'dreamers', 'doers',
-    'challengers', 'innovators', 'change-makers', 'chance-takers']); // Your list of words
+    const words = ref(['change-makers', 'chance-takers','brave', 'kind', 'rebels', 'dreamers', 'doers', 'challengers', 'innovators']); // Your list of words
 
     return {
       words,
@@ -20,7 +19,7 @@ export default {
          <h1 class="wide dark header not-bold">We work with the </h1>
       </v-col>
        <v-col cols="12" sm="12" md="12" class="pb-15 mb-15 animation-style">
-         <ul id="changeMaker" class="animation text-left medium green">
+         <ul id="changeMaker" class="animation dark green">
            <li v-for="word in words" class="cm"><h1 class="header"><b>{{ word
                  }}.</b></h1></li>
          </ul>
@@ -52,7 +51,7 @@ export default {
 
 .animation-style li {
   list-style: none;
-  width: 60%;
+  width: 70%;
   opacity: 0;
   position: absolute;
   left: 30%;
@@ -139,10 +138,10 @@ export default {
 @media (max-width: 1024px) {
 .animation-style li {
   list-style: none;
-  width: 60%;
+  width: 90%;
   opacity: 0;
   position: absolute;
-  left: 50%;
+  left: 40%;
   text-align: right !important;
   display: table;
   transform: translate(-50%, -50%);

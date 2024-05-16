@@ -31,7 +31,10 @@
           </a>
         </v-col>
         <v-col class="mx-0 px-0 copyright" cols="12">
-          Copyright Human.Nature 2024
+          <p class="para">Copyright Human.Nature 2024</p>
+        </v-col>
+        <v-col class="mx-0 px-0" cols="12">
+          <CarbonBadge :dark="true" />
         </v-col>
       </v-row>
     </v-container>

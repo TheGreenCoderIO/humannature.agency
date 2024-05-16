@@ -6,11 +6,11 @@
     <v-row class="pt-15 pb-15">
        <v-col cols="12" sm="12" md="12" class="pl-15 pr-15 pt-15 pb-15 mt-15 mb-15">
          <h1 class="dark header"><span class="not-bold">Building</span> <span
-             class="green medium bold">better
-               brands</span> 
+                                       class="green dark">better
+                                         brands</span> 
            <br/>
-           <span class="not-bold">for a</span> <span class="green medium bold">better planet.</span></h1>
-        <h2>Storytelling & brand building for purpose-driven brands.</h2>
+           <span class="not-bold">for a</span> <span class="green dark bold">better planet.</span></h1>
+        <h2 class="heading" >Storytelling & brand building for purpose-driven brands</h2>
       </v-col>
     </v-row>
   </v-container>
@@ -41,5 +41,7 @@
   background-image: url('@/assets/home-header.webp');
   background-size: cover;
 }
-
+ .heading {
+  font-size: 2.75em;
+ }
 </style>

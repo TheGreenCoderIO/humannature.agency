@@ -38,7 +38,7 @@
     <v-row class="para pl-5 pr-5">
       <v-col cols="12" xs="12" sm="12" md="4" class="ml-auto">
         <div class="services-blocks pl-10 pt-10 pb-10 pr-10">
-        <h2 class="dark-medium">Stroytelling for impact</h2>
+        <h2 class="dark-medium">Storytelling for impact</h2>
         <br/>
         <ul>
           <li>Visualising ESG reporting
